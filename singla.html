@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project 0</title>
+  </head>
+  <style>
+    body {
+      background-image: url("images/white.jpg")
+      background-repeat: no-repeat;
+      background-position: right top;
+    }
+    a {
+      color: white;
+      background-color: black;
+      text-align: left;
+      font-size: 12px;
+      border-style: solid;
+      border-width: thick;
+      border-radius: 5px;
+    }
+
+    a:link,
+    a:visited {
+      background-color: black;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: underline;
+      display: inline-block;
+    }
+    /* mouse over link */
+    a:hover {
+      color: pink;
+    }
+    /* selected link */
+    a:active {
+      color: orange;
+    }
+    a[href="https://www.google.com/advanced_search"]
+    {
+      color: white;
+      background-color: blue;
+    }
+    button:hover: {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <ol>
+      <form action="https://google.com">
+        <ul>
+          <li><input type="text" placeholder="google search" name="q" /></li>
+        </ul>
+        <li><a href="https://google.com">Google Homepage</a></li>
+        <li><a href="https://images.google.com">Google images</a></li>
+        <li>
+          <a href="https://www.google.com/advanced_search"
+            >Google Advance Search</a
+          >
+        </li>
+      </form>
+    </ol>
+  </body>
+</html>
